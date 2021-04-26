@@ -14,7 +14,7 @@ attrs==20.3.0
     # via jsonschema
 bcrypt==3.2.0
     # via paramiko
-black==20.8b1
+black==21.4b0
     # via -r requirements.in
 boto3==1.17.51
     # via -r requirements.in
