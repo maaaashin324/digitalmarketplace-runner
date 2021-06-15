@@ -159,6 +159,12 @@ typed-ast==1.4.3
     # via
     #   black
     #   mypy
+types-pyyaml==5.4.0
+    # via -r requirements.in
+types-redis==3.5.1
+    # via -r requirements.in
+types-requests==0.1.11
+    # via -r requirements.in
 typing-extensions==3.7.4.3
     # via
     #   black

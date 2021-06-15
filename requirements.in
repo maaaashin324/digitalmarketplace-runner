@@ -21,3 +21,6 @@ PyYAML
 redis
 requests
 ruamel.yaml
+types-PyYAML
+types-redis
+types-requests
