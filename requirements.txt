@@ -16,9 +16,9 @@ bcrypt==3.2.0
     # via paramiko
 black==21.6b0
     # via -r requirements.in
-boto3==1.17.93
+boto3==1.17.102
     # via -r requirements.in
-botocore==1.20.93
+botocore==1.20.102
     # via
     #   boto3
     #   s3transfer
@@ -53,12 +53,12 @@ digitalmarketplace-developer-tools==1.0.1
     # via -r requirements.in
 distro==1.5.0
     # via docker-compose
-docker-compose==1.29.2
-    # via -r requirements.in
 docker[ssh]==5.0.0
     # via
     #   -r requirements.in
     #   docker-compose
+docker-compose==1.29.2
+    # via -r requirements.in
 dockerpty==0.4.1
     # via docker-compose
 docopt==0.6.2
@@ -82,12 +82,12 @@ jmespath==0.10.0
     #   botocore
 jsonschema==3.2.0
     # via docker-compose
+mypy==0.902
+    # via -r requirements.in
 mypy-extensions==0.4.3
     # via
     #   black
     #   mypy
-mypy==0.902
-    # via -r requirements.in
 paramiko==2.7.2
     # via docker
 pathspec==0.8.1
@@ -96,7 +96,7 @@ pep517==0.10.0
     # via pip-tools
 pexpect==4.8.0
     # via -r requirements.in
-pip-tools==6.1.0
+pip-tools==6.2.0
     # via -r requirements.in
 prettytable==2.1.0
     # via -r requirements.in
@@ -131,10 +131,10 @@ requests==2.25.1
     #   -r requirements.in
     #   docker
     #   docker-compose
-ruamel.yaml.clib==0.2.2
-    # via ruamel.yaml
 ruamel.yaml==0.17.0
     # via -r requirements.in
+ruamel.yaml.clib==0.2.2
+    # via ruamel.yaml
 s3transfer==0.4.2
     # via boto3
 six==1.15.0
@@ -180,6 +180,8 @@ websocket-client==0.58.0
     # via
     #   docker
     #   docker-compose
+wheel==0.36.2
+    # via pip-tools
 zipp==3.4.1
     # via
     #   importlib-metadata
