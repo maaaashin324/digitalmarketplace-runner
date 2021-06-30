@@ -96,7 +96,7 @@ pep517==0.10.0
     # via pip-tools
 pexpect==4.8.0
     # via -r requirements.in
-pip-tools==6.1.0
+pip-tools==6.2.0
     # via -r requirements.in
 prettytable==2.1.0
     # via -r requirements.in
@@ -180,6 +180,8 @@ websocket-client==0.58.0
     # via
     #   docker
     #   docker-compose
+wheel==0.36.2
+    # via pip-tools
 zipp==3.4.1
     # via
     #   importlib-metadata
