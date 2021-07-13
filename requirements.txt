@@ -72,7 +72,7 @@ importlib-metadata==3.10.1
     #   jsonschema
     #   pep517
     #   prettytable
-invoke==1.5.0
+invoke==1.6.0
     # via
     #   -r requirements.in
     #   digitalmarketplace-developer-tools
