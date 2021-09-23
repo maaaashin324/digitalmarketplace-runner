@@ -12,7 +12,7 @@ attrs==20.3.0
     # via jsonschema
 bcrypt==3.2.0
     # via paramiko
-black==21.8b0
+black==21.9b0
     # via -r requirements.in
 boto3==1.18.41
     # via -r requirements.in
