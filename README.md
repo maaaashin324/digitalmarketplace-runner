@@ -14,7 +14,7 @@ Running against other OSs may require some care and consideration.
 
 * The Python version specified in [.python-version](.python-version), including headers if appropriate (consider using [pyenv]),
   installed with `pip` and `virtualenv` packages.
-  * macOS/Homebrew users can install with `brew install pyenv && pyenv shell 3.6.8`
+  * macOS/Homebrew users can install with `brew install pyenv && pyenv shell 3.9.7`
   * Add a line to your `.bash_profile` to source the `Brewfile.env` (see below)
 * The Node version specified in [.nvmrc](.nvmrc) (consider using [Node Version Manager]) and NPM 6+ installed
   and available in your path.
