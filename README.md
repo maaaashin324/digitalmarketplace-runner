@@ -46,7 +46,7 @@ macOS/[Homebrew] users can run `invoke brew` to install all these prerequisites.
 
 This will make sure that the correct Python and Node versions are in your path, and that the
 correct version of Postgres is available for use with the
-[digitalmarketplace-api](https://github.com/alphagov/digitalmarketplace-api) repo.
+[digitalmarketplace-api](https://github.com/Crown-Commercial-Service/digitalmarketplace-api) repo.
 
 [Homebrew]: https://brew.sh
 [Node Version Manager]: https://github.com/nvm-sh/nvm
@@ -136,7 +136,7 @@ lists (for example), the URLs for each of the apps, which apps there are to run 
 what frameworks need to be indexed for search, etc.
 
 ## Troubleshooting
-Check if your issue is listed under https://github.com/alphagov/digitalmarketplace-runner/issues.
+Check if your issue is listed under https://github.com/Crown-Commercial-Service/digitalmarketplace-runner/issues.
 
 ### Docker backing services
 On startup, if DMRunner says a backing service already exists, you can list the DMRunner Docker containers (and their
