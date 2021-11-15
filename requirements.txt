@@ -145,7 +145,7 @@ toml==0.10.2
     #   pep517
 tomli==1.1.0
     # via black
-types-pyyaml==6.0.0
+types-pyyaml==6.0.1
     # via -r requirements.in
 types-redis==3.5.15
     # via -r requirements.in
